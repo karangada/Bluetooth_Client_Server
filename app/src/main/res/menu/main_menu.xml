@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/pinchange"
+        android:icon="@drawable/ic_fiber_pin_black_24dp"
+        android:title="@string/change_pins"
+        myapp:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/list_visible"
+        android:title="@string/message_list"
+        myapp:showAsAction="never" />
+
+    <item android:id="@+id/menu_uuid"
+        android:title="@string/setuuid"
+        myapp:showAsAction="never" />
+</menu>
